@@ -1,0 +1,131 @@
+@media (max-width:640px){
+    .container{
+  
+        width: 100%;
+        padding: 0;
+        margin: 0;
+        
+      }
+
+      .header{
+          width: 100%;
+      }
+
+      .header-title {
+    
+        font-size: 16px !important;
+    }
+    .header-title h1{
+        color: red !important;
+    }
+
+    .header-list{
+    
+        text-align: left;
+        margin-top: 5px;
+        margin-left: -25%;
+    }
+
+    .list-container li{
+        margin-right: 30px;
+        font-size: 14px;
+    }
+    
+    .span {
+        font-size: 14px;
+        margin-right: -5%;
+        
+    }
+
+    .sub-header{
+        
+
+        width: 100%;
+        height: auto;
+        position: relative;
+        margin-top: 10px;
+        padding-top: 15px;
+        font-size: 12px;
+        
+    }
+    
+    .sub-header h2{
+        text-transform: uppercase;
+        padding-bottom: 10px;
+        
+    }
+
+    .sub-header p{
+        line-height: 2em;
+    }
+
+    .model-image{
+        
+        background-size: auto;
+        width: 100%;
+    
+    }
+
+    article{
+       width: 100%;
+        line-height: 1.2em;
+    }
+    
+    .story-title{
+        
+        font-size: 14px;
+        font-weight: 300;
+        margin-top: 25px;
+        margin-bottom: 15px;
+    }
+    
+    .story-text{
+        font-size: 14px;
+        letter-spacing: 0.2em;
+        width: 100%;
+        
+    }
+
+    footer{
+    
+        height: auto;
+        width: 100%;
+        
+    }
+
+    .info{
+        
+        
+        width: 100%;
+        height: auto;
+        
+    }
+    
+}
+
+@media (max-width:1000px){
+    .container{
+  
+        width: 100%;
+    
+        
+      }
+
+      .header-title{
+          font-size: 24px;
+          
+      }
+     
+
+      .header-title h1{
+          color: blue;
+      }
+      
+    footer{
+    
+        height: auto;
+        width: 100%;
+        
+        
+    }
+}
